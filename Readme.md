@@ -1,5 +1,6 @@
 ###### 为 Syncthing 写个球球
 <img src="img/pic.jpg" alt="1" width="200" />
+
 - 因为每次下班时,不知道有没有同步回去,或服务挂掉
   
 - Syncthing 考虑到跨平台, 程序中并没有 tray,毕竟 Go实现 tray 是要 cgo 的
