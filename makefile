@@ -5,7 +5,7 @@ clean:
 
 m1:
 	@echo '${BIN} building...'
-	@env go build -tags=nomsgpack -ldflags '-s -w' -gcflags="all=-trimpath=${PWD}" -asmflags="all=-trimpath=${PWD}" -o ${BIN} main.go
+	@env go build -tags=nomsgpack -ldflags '-s -w' -gcflags="all=-trimpath=${PWD}" -asmflags="all=-trimpath=${PWD}" -o syncthing_tray.app/Contents/MacOS/${BIN} main.go
 	@du -sh ${BIN}
 
 
